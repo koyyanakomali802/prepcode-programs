@@ -1,0 +1,6 @@
+food_price = float(input("enter the price:"))
+quantity = int(input("enter the quantity:"))
+delivery_charge = int(input("enter the delivery charge:"))
+discount_percentage = float(input("enter the discount percentage;"))
+final_bill = food_price *quantity+delivery_charge-(food_price*quantity*discount_percentage/100)
+print(f"final_bill={final_bill}")
