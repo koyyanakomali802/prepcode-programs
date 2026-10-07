@@ -1,10 +1,5 @@
-number = 1
-count = 0
-while number<= 25:
-    if count
+number = 10
+while number != 23:
+    number = int(input("guess the number:"))
 
-
-    for i in range(6):
-        print("  =", end = " ")
-
-    print()    
+print("Found")
