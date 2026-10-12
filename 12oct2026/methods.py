@@ -19,4 +19,24 @@ print(data)
 data="a/tb".expandtabs()
 print(data)
 
-data=
+data="hello".find("e")
+print(data)
+
+data="hello{}".format("john")
+print(data)
+
+data="hello{name}".format_map({"name": "john"})
+print(data)
+
+data="hello".index("e")
+print(data)
+
+data="abc123".isalnum()
+print(data)
+
+data="hello".isalpha()
+print(data)
+
+data="hello".isascii()
+print(data)
+
