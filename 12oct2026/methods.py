@@ -40,3 +40,13 @@ print(data)
 data="hello".isascii()
 print(data)
 
+data="123".isdecimal()
+print(data)
+
+data="123".isdigit()
+print(data)
+
+data="student_name".isidentifier()
+print(data)
+
+data=""
