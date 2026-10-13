@@ -1,3 +1,2 @@
-a = hello
-s = "a".encode()
+s = "hello".encode()
 print(s)
